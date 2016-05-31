@@ -1,14 +1,23 @@
 sudo apt-get install vim \
     htop \
-    git;
+    git \
+    docker \
+    docker-compose \
+    composer;
 
 currentPath=$(pwd)
 
+echo $currentPath
+
 rm ~/.bashrc
-ln -s $currentpath/.bashrc ~/.bashrc
+file="$currentPath/.bashrc"
+ln -s $file ~/.bashrc
 
 rm ~/.vimrc
-ln -s $currentpath/.vimrc ~/.vimrc
+file="$currentPath/.vimrc"
+ln -s "$currentpath/.bashrc" ~/.vimrc
+
+git clone https://github.com/magicmonty/bash-git-prompt.git .bash-git-prompt
 
 echo "==========================="
 echo "= Git configurations ======"
