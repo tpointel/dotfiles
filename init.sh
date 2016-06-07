@@ -15,7 +15,7 @@ ln -s $file ~/.bashrc
 
 rm ~/.vimrc
 file="$currentPath/.vimrc"
-ln -s "$currentpath/.bashrc" ~/.vimrc
+ln -s "$currentpath/.vimrc" ~/.vimrc
 
 git clone https://github.com/magicmonty/bash-git-prompt.git .bash-git-prompt
 
