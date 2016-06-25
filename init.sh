@@ -3,7 +3,8 @@ sudo apt-get install vim \
     git \
     docker \
     docker-compose \
-    composer;
+    composer\
+    cifs-utils;
 
 currentPath=$(pwd)
 

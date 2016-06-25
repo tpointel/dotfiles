@@ -1,0 +1,2 @@
+
+rsync -azv --progress --exclude '_in-progress' ~/torrent/ /mnt/freebox/Vidéos/
