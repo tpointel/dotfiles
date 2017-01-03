@@ -1,9 +1,10 @@
-brew install vim \
+sudo apt-get install vim \
     htop \
     git \
     docker \
     docker-compose \
-    composer;
+    composer\
+    cifs-utils;
 
 currentPath=$(pwd)
 
