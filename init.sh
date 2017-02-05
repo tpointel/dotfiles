@@ -3,7 +3,8 @@ brew install vim \
     git \
     docker \
     docker-compose \
-    composer;
+    composer \
+    homebrew/php/php71;
 
 currentPath=$(pwd)
 
