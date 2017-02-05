@@ -4,7 +4,7 @@ brew install vim \
     docker \
     docker-compose \
     composer \
-    homebrew/php/php71;
+    homebrew/php/php54-mysqlnd_ms homebrew/php/php54-memcached;
 
 currentPath=$(pwd)
 
