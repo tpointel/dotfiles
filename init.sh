@@ -5,7 +5,8 @@ brew install vim \
     docker-compose \
     composer \
     homebrew/php/php54-mysqlnd_ms homebrew/php/php54-memcached \
-    bash-completion;
+    bash-completion \
+    exa;
 
 currentPath=$(pwd)
 
