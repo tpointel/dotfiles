@@ -6,7 +6,10 @@ brew install vim \
     composer \
     homebrew/php/php54-mysqlnd_ms homebrew/php/php54-memcached \
     bash-completion \
-    exa;
+    exa \
+    node;
+
+npm install -g hyper
 
 currentPath=$(pwd)
 
