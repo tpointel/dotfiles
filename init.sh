@@ -4,10 +4,11 @@ brew install vim \
     docker \
     docker-compose \
     composer \
-    homebrew/php/php54-mysqlnd_ms homebrew/php/php54-memcached \
+    php \
     bash-completion \
     exa \
-    node;
+    node \
+    powershell/tap/powershell;
 
 npm install -g hyper
 
