@@ -4,4 +4,4 @@ hyper i hyper-active-tab
 hyper i hyper-tabs-enhanced
 hyper i hyper-highlight-active-pane
 hyper i hypercwd
-
+hyper i hyper-search
